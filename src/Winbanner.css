@@ -1,0 +1,40 @@
+.win-banner {
+  margin-top: 1rem;
+  padding: 1.5rem;
+  background: #edf7f0;
+  border-radius: 12px;
+  border: 1.5px solid #a3d9b1;
+  text-align: center;
+}
+
+.win-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d7a4f;
+  margin-bottom: 4px;
+}
+
+.win-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: #4a9e6e;
+  margin-bottom: 1rem;
+}
+
+.win-btn {
+  padding: 9px 20px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1.5px solid #2d7a4f;
+  border-radius: 8px;
+  background: #fff;
+  color: #2d7a4f;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.win-btn:hover {
+  background: #f0faf4;
+}

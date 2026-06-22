@@ -1,0 +1,45 @@
+.app-wrapper {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40x;
+  font-weight: 700;
+  color: #111;
+  text-align: center;
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1.25rem;
+  justify-content: center;
+}
+
+.help-btn {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid #d1d1d1;
+  background: #fff;
+  color: #888;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.15s;
+}
+
+.help-btn:hover {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}

@@ -1,0 +1,31 @@
+.diff-bar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1.25rem;
+}
+
+.diff-btn {
+  flex: 1;
+  padding: 9px 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1.5px solid #d1d1d1;
+  border-radius: 8px;
+  background: #fff;
+  color: #888;
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.01em;
+}
+
+.diff-btn:hover {
+  background: #f5f5f5;
+  color: #111;
+}
+
+.diff-btn.active {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
