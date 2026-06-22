@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DifficultyBar from './DifficultyBar';
 import HUD from './HUD';
 import Board from './Board';
-import WinBanner from './WinBanner';
+import WinBanner from './Winbanner';
 import useGameState from './UseGameState.js';
 import { DIFFICULTIES } from './GameConfig.js';
 import SymbolType from './SymbolType';

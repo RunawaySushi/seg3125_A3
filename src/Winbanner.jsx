@@ -1,6 +1,6 @@
 import React from 'react';
 import { formatTime } from './GameConfig.js';
-import './WinBanner.css';
+import './Winbanner.css';
 
 export default function WinBanner({ moves, seconds, onNewGame }) {
   if (moves === null) return null;
